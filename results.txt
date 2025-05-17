@@ -1,0 +1,113 @@
+Extracting Archive:
+Archive:  /home/jobe/runs/jobe_WRKpj9/submission
+  inflating: correct.sql             
+  inflating: ex3.pdf                 
+  inflating: example.sql             
+  inflating: q1.sql                  
+  inflating: q2.sql                  
+  inflating: q3.sql                  
+  inflating: q4.sql                  
+  inflating: q5.sql                  
+  inflating: q6.sql                  
+ extracting: README.md               
+  inflating: README                  
+
+*************************************************************
+** Testing that all necessary files were submitted:
+README: 
+	SUBMITTED
+ex3.pdf: 
+	SUBMITTED
+q1.sql: 
+	SUBMITTED
+q2.sql: 
+	SUBMITTED
+q3.sql: 
+	SUBMITTED
+q4.sql: 
+	SUBMITTED
+q5.sql: 
+	SUBMITTED
+q6.sql: 
+	SUBMITTED
+correct.sql: 
+	SUBMITTED
+example.sql: 
+	SUBMITTED
+
+*************************************************************
+** Checking for correct README format:
+OK!
+
+*************************************************************
+** Testing SQL queries:
+NOTE: presubmit test is run on EMPTY TABLES!!!
+
+** Running q1.sql:
+Output:
+ number | partycount 
+--------+------------
+(0 rows)
+
+
+
+** Running q2.sql:
+Output:
+ number | avgage 
+--------+--------
+(0 rows)
+
+
+
+** Running q3.sql:
+Output:
+ name 
+------
+(0 rows)
+
+
+
+** Running q4.sql:
+Output:
+ number | party | membercount 
+--------+-------+-------------
+(0 rows)
+
+
+
+** Running q5.sql:
+Output:
+ party | number | femalepercent 
+-------+--------+---------------
+(0 rows)
+
+
+
+** Running q6.sql:
+Output:
+ name | uid 
+------+-----
+(0 rows)
+
+
+
+*************************************************************
+Warning: It seems that your schema for q6.sql is different than expected.
+The expected one is ['uid', 'name'], while yours is ['name', 'uid']
+*************************************************************
+
+** Running correct.sql:
+Output:
+ n1 | n2 
+----+----
+(0 rows)
+
+
+
+** Running example.sql
+Output:
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+
+Finished Running Presubmit!

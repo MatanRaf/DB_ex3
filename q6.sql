@@ -29,8 +29,8 @@ MKsWithinDistance3 AS (
     FROM KnessetConnections
 )
 SELECT
-    m.name,
-    m.uid
+    m.uid,
+    m.name
 FROM
     members m
 LEFT JOIN
